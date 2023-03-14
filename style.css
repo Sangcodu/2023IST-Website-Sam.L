@@ -21,7 +21,7 @@ DIV {
 
 
 #Maincontent {
-	width: 800px:
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -30,7 +30,7 @@ DIV {
 	width: 802px;
 	margin-right: auto;
 	margin-left: auto;
-	height: 50px;
+	height:50px;
 }
 
 #Footerleft {
@@ -104,7 +104,7 @@ DIV {
 }
 
 .button-3:hover {
-	color: #FFF
+	color: #FFF;
 	background-color: red;
 }
 
