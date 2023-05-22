@@ -20,7 +20,35 @@
   <body>
   
   <style>
-  .container {border:1px solid green;}
+ <style>
+    nav {
+      background-color: #3CB043;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px 10px;
+    }
+
+    nav a:hover {
+      background-color: #03C04A;
+    }
+  .navbar navbar-expand-lg bg-body-tertiary {
+  border:1px solid green;
+  background-color: #3CB043;
+  }
   .col-lg-6 {border:1px solid green;}
   .navbar-brand IMG {height:180px}
   .nav-link active {color: blue}
@@ -28,6 +56,7 @@
 <!-- NAVBAR STARTS HERE -->
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
   <div class="container">
     <a class="navbar-brand" href="#"><IMG src="images\logo.png" class="img-fluid" /> </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,6 +96,22 @@
 </nav>
 
 <!-- NAVBAR END HERE -->
+
+<!-- FEATURES START HERE -->
+
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Album example</h1>
+        <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  
 
 <!-- HERO SLIDER BLOCK STARTS HERE -->
 
