@@ -53,12 +53,13 @@
   
   .navbar-brand IMG {height:180px}
   .nav-link active {color: blue}
+  .container-cards {border: 1px; color: black}
   </style>
 <!-- NAVBAR STARTS HERE -->
 
 <header data-bs-theme="success">
   <div class="collapse text-bg-success" id="navbarHeader">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">
           <h4>About us</h4>
@@ -75,27 +76,70 @@
       </div>
     </div>
   </div>
-  <div class="navbar navbar-success bg-success shadow-sm">
+  <div class="navbar navbar-success bg-wg shadow-sm">
     <div class="container">
       <a href="#" class="navbar-brand d-flex align-items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true"</svg>
         <strong>MONEY TR2E</strong>
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    </div>
-  </div>
-</header>
-
-
-</div>
-      </ul>
+	  
+	  <div>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
+    </div>
+  </div>
+<div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"></path>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"></path>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"></path>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"></path>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"></path>
+      </symbol>
+    </svg>
+     <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+</header>
   </div>
 </nav>
 
@@ -115,24 +159,50 @@
         </p>
       </div>
     </div>
-	<div class="container">
-	<div class="row">
-		<div class="border col-8">
-			<div class="row">
-				<div class="border col-7">
-					Left col
-				</div>
-				<div class="border col-5">
-					right col
-				</div>
-			</div>
-		</div>
-		<div class="border col-4">
-			right col
-		</div>
+	<div class="container-lg">
+	
+	<hr class="featurette-divider">
 
-	</div>
-</div>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4" style="direction: ltr;"></span>
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="177515" _mstHash="27" style="direction: ltr;"><title _mstTextHash="177515" _mstHash="28">Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <h2 class="fw-normal" _msttexthash="97565" _msthash="29">address</h2>
+        <p _msttexthash="23917322" _msthash="30">Always remember that a computer does not have intelligence, but it acquires artificial intelligence through three main functional elements: the ability to analyze, the ability to compose, and logical reasoning.</p>
+        <p><a class="btn btn-secondary" href="#" _msttexthash="177125" _msthash="31">View Details</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4" style="direction: ltr;">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="177515" _mstHash="32" style="direction: ltr;"><title _mstTextHash="177515" _mstHash="33">Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <h2 class="fw-normal" _msttexthash="206648" _msthash="34">Other address</h2>
+        <p _msttexthash="79648907" _msthash="35">If we want to use the smart computer in the processing of the Arabic language, we find ourselves facing a great challenge, especially since our language is characterized by the coherence and overlap of its systems, however, artificial intelligence enables us to obtain four types of processing: phonetic processing, morphological processing, grammatical processing, and semantic processing.</p>
+        <p><a class="btn btn-secondary" href="#" _msttexthash="177125" _msthash="36">View Details</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4" style="direction: ltr;">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="177515" _mstHash="37" style="direction: ltr;"><title _mstTextHash="177515" _mstHash="38">Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
+        <h2 class="fw-normal" _msttexthash="1228162" _msthash="39">A third heading to confirm the information</h2>
+        <p _msttexthash="60310016" _msthash="40">Thanks to artificial intelligence research and technologies, we were able to move from the stage of dealing with the physicist to the stage of dealing with the logical, and this transition reflected positively on how people deal with their living languages, and this means that it must reflect positively on how we deal with our Arabic language.</p>
+        <p><a class="btn btn-secondary" href="#" _msttexthash="177125" _msthash="41">View Details</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1" _msttexthash="1687309" _msthash="42" style="direction: ltr; text-align: left;">Featured first title. <span class="text-body-secondary" _istranslated="1"> Your mind will be astonished. </span></h2>
+        <p class="lead" _msttexthash="57623852" _msthash="43" style="direction: ltr; text-align: left;">The human face is a very complex and distinct part of his body. In fact, it's one of the most complex signaling systems we have available; it includes more than 40 structurally and functionally independent muscles, each of which can be operated independently of each other; and constitutes one of the most powerful indicators of emotions.</p>
+      </div>
+      <div class="col-md-5" style="direction: ltr; text-align: left;">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="310505" _mstHash="44"><title _mstTextHash="177515" _mstHash="45">Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em" _mstTextHash="54210" _mstHash="46">500x500</text></svg>
+      </div>
+    </div>
+
+    <!-- /END THE FEATURETTES -->
+
+  </div>
 
   </section>
   
